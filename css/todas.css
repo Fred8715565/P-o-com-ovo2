@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4efe2;
+    font-family:Georgia, serif;
+    color:#111;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    border-bottom:1px solid #ccc;
+}
+
+.logo{
+    font-size:60px;
+    color:#b56a1c;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+}
+
+.btn-receitas{
+    background:#9c5129;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+/* TÍTULO */
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    display:inline-block;
+    background:#ddd6c8;
+    padding:15px 50px;
+    border-radius:12px;
+    font-size:65px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+/* CONTEÚDO */
+
+.receitas{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+    padding:40px;
+    border-top:2px solid #d1c7b4;
+}
+
+.coluna{
+    padding:20px;
+    border-right:1px solid #777;
+}
+
+.coluna:last-child{
+    border-right:none;
+}
+
+.coluna h2{
+    margin-bottom:10px;
+    font-size:34px;
+}
+
+.coluna p{
+    margin:10px 0;
+    font-size:22px;
+}
+
+.coluna ul{
+    margin-left:30px;
+    margin-bottom:15px;
+    font-size:20px;
+}
+
+.coluna li{
+    margin-bottom:5px;
+}
+
+.subtitulo{
+    font-weight:bold;
+    margin-top:15px;
+}
+
+/* IMAGEM */
+
+.chef{
+    display:block;
+    margin-left:auto;
+    margin-top:30px;
+    width:180px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:900px){
+
+    nav{
+        display:none;
+    }
+
+    .receitas{
+        grid-template-columns:1fr;
+    }
+
+    .coluna{
+        border-right:none;
+        border-bottom:1px solid #999;
+    }
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    .chef{
+        margin:auto;
+        margin-top:20px;
+    }
+}
+.inicio{
+    background-color: #e8e3d7;
+    border-bottom: 30px solid #d8d2c3;
+    
+}

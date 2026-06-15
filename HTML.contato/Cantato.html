@@ -1,51 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Receitas Salgadas</title>
-    <link rel="stylesheet" href="../css/sal.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fale Conosco</title>
+<link rel="stylesheet" href="../css/Contato.css">
 </head>
 <body>
 
 <header>
-    <img src="../imgs/logo.png" class="logo">
+
+    <div class="logo">
+        <img src="../imgs/logo.png" style="width: 200px; ">
+    </div>
+
     <nav>
-        <a href="../INDEX.HTML" class="sal">Início</a>
-        <a href="../HTML.sal/sal.html" class="sal">Receitas Salgadas</a>
-        <a href="../HTML.doce/doce.html"class="sal">Receitas Doces</a>
-        <a href="../HTML.café/café.html"class="sal">Receitas de Café</a>
-        <a href="Cantato.html"class="sal">Contato</a>
+        <a href="../INDEX.HTML" class="ativo">Início</a>
+        <a href="../HTML.sal/sal.html"class="ativo">Receitas Salgadas</a>
+        <a href="../HTML.doce/doce.html"class="ativo">Receitas Doces</a>
+        <a href="../HTML.café/café.html"class="ativo">Receitas de Café</a>
+        <a href="../HTML.Sugestão/sugestão.html"class="ativo">Sugestão de Cafés</a>
     </nav>
 
-    <button class="btn-receitas">Todas as Receitas</button>
+    <button class="btn-receitas">
+        Todas as Receitas
+    </button>
+
 </header>
 
-<main class="conteudo">
+<section class="titulo">
 
-    <section class="texto">
+    <h1>Fale Conosco:</h1>
 
-        <h1>Receitas Doces</h1>
+    <h2>Estamos aqui para você!</h2>
 
-        <ul>
-            <li><a href="Rabanada simples.html">Rabanada simples</a></li>
-            <li><a href="Pudim de Pão.html">Pudim de pão</a></li>
-            <li><a href="Pão Dece na Frigideira.html">Pão doce na frigideira</a></li>
-            <li><a href="Torrada Francesa Doce.html">Torrada francesa doce</a></li>
-            <li><a href="Affogato.html">Affogato</a></li>
-            <li><a href="Bolo de pão com Banana e Chocolate.html">Bolo de Pão com Banana e Chocolate</a></li>
-        </ul>
+</section>
 
-        <div class="legenda">
-            "Especial"
-        </div>
+<section class="container">
 
-    </section>
+    <div class="formulario">
 
-    <section class="imagem_sal">
-        <img src="../imgs/doce1.png" alt="">
-    </section>
-    
-</main>
+        <label>Seu Nome</label>
+        <input type="text">
+
+        <label>Seu E-mail</label>
+        <input type="email">
+
+        <label>Sua Mensagem</label>
+        <textarea rows="6"></textarea>
+
+        <button class="btn-enviar">
+            ENVIAR MENSAGEM
+        </button>
+
+    </div>
+
+    <div class="lado-direito">
+
+        <img
+        src="../imgs/pão com ovo já.png"
+        alt="Chef"
+        class="chef">
+
+    </div>
+
+</section>
+
+<footer>
+
+    <img
+    src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=1200"
+    alt="Cozinha">
+
+    <h2>Um Pedaço da Nossa História</h2>
+
+</footer>
 
 </body>
 </html>
