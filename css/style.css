@@ -17,6 +17,10 @@ header{
     padding:20px 60px;
 }
 
+.ativoo{
+    text-decoration:underline;
+}
+
 .logo_pagina_inicial{
     width:200px;
 }
@@ -180,4 +184,10 @@ footer{
     box-shadow: 0 8px 20px rgba(17, 17, 17, 0.2);
 }
 
-
+.Creditos{
+    border: none;
+    height: 20px;
+    background-color:
+    #e2ddd2; margin-top: 40px;
+    margin-bottom: 0;
+}

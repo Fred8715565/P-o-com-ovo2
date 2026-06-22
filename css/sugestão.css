@@ -28,6 +28,10 @@ nav{
     font-size:25px;
 }
 
+.ativoo{
+    text-decoration:underline;
+}
+
 
 nav a{
     text-decoration:none;
@@ -187,4 +191,9 @@ footer{
     nav{
         display:none;
     }
+
+    .seu-texto {
+    border-bottom: 5px solid black;
+    }
+
 }

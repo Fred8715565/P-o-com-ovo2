@@ -37,6 +37,10 @@ nav{
     transform: translateY(-5px);
 }
 
+.ativoo{
+    text-decoration:underline;
+}
+
 
 nav a{
     text-decoration:none;
