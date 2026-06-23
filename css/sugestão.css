@@ -57,6 +57,11 @@ nav a{
     transform: translateY(-5px);
 }
 
+.btn-menu a{
+    color:white;
+    text-decoration:none;
+}
+
 .hero{
     display:flex;
     justify-content:space-between;
@@ -102,6 +107,7 @@ nav a{
     cursor:pointer;
     font-size:18px;
     box-shadow: 0 3px 8px rgba(0,0,0,.2);
+
 }
     .categorias button{
     text-decoration: none;
@@ -117,6 +123,10 @@ nav a{
     grid-template-columns:repeat(4,1fr);
     gap:25px;
     padding:40px;
+}
+.cards a{
+    color:white;
+    text-decoration:none;
 }
 
 .card{
@@ -196,4 +206,8 @@ footer{
     border-bottom: 5px solid black;
     }
 
+.btn-comprar a{
+    color:white;
+    text-decoration:none;
+}
 }

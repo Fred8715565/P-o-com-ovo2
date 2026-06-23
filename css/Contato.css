@@ -68,6 +68,11 @@ nav a{
     transform: translateY(-5px);
 }
 
+.btn-receitas a{
+    color:white;
+    text-decoration:none;
+}
+
 /* TITULO */
 
 .titulo{

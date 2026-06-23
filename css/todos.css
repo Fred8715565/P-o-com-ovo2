@@ -56,6 +56,11 @@ nav a{
     transition: 0.3s;
 }
 
+.btn-receitas a{
+    color:white;
+    text-decoration:none;
+}
+
 /* isso mostra uma linha em baixo de algo que ao passar o mouse em cima */
 
 .btn-receitas:hover {
@@ -103,10 +108,9 @@ nav a{
 }
 
 .imagem_config img{
-    width:1000px;
+    width:800px;
     border-radius:20px;
     right: 50px;;
-    
 }
 
 ol  {

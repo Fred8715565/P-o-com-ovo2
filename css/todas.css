@@ -121,9 +121,9 @@ nav a{
 
 .chef{
     display:block;
-    margin-left:auto;
-    margin-top:30px;
-    width:180px;
+    margin-left:-150px;
+    margin: top 50px;
+    width:300px;
 }
 
 /* RESPONSIVO */
