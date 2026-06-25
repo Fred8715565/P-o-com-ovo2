@@ -14,7 +14,7 @@
     <nav>
         <a href="../index.html"class="ativa">Inicio</a>
         <a href="../HTML.sal/sal.html" class="ativa">Receitas Salgadas</a>
-        <a href="doce.html"class="ativo">Volta</a>
+        <a href="doce.html"class="ativa atual">Volta</a>
         <a href="../HTML.café/café.html"class="ativa">Receitas de Café</a>
         <a href="../HTML.contato/Cantato.html"class="ativa">Contato</a>
         <a href="../HTML.Sugestão/sugestão.html"class="ativa">Sugestão de Cafés</a>
@@ -62,6 +62,18 @@
 
 </main>
 
+    <script>
+const links = document.querySelectorAll('nav a');
 
+links.forEach(function(link) {
+    link.addEventListener('mouseenter', function() {
+        document.querySelector('nav a.atual').style.borderBottom = '2px solid transparent';
+    });
+
+    link.addEventListener('mouseleave', function() {
+        document.querySelector('nav a.atual').style.borderBottom = '2px solid black';
+    });
+});
+</script>
 </body>
 </html>

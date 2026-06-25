@@ -32,10 +32,26 @@ nav{
     transform: translateY(-5px);
 }
 
-nav a{
-    color:black;
-    text-decoration:none;
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
 }
+
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+nav a.atual {
+    border-bottom: 2px solid black;
+}
+
+nav a.atual:hover {
+    border-bottom: 2px solid black;
+}
+
 
 .ativo{
     text-decoration:underline;

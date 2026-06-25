@@ -152,6 +152,18 @@
         </div>
 </seciton>
 
+    <script>
+const links = document.querySelectorAll('nav a');
 
+links.forEach(function(link) {
+    link.addEventListener('mouseenter', function() {
+        document.querySelector('nav a.atual').style.borderBottom = '2px solid transparent';
+    });
+
+    link.addEventListener('mouseleave', function() {
+        document.querySelector('nav a.atual').style.borderBottom = '2px solid black';
+    });
+});
+</script>
 </body>
 </html>

@@ -33,9 +33,24 @@ nav{
 }
 
 
-nav a{
-    text-decoration:none;
-    color:#222;
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+nav a.atual {
+    border-bottom: 2px solid black;
+}
+
+nav a.atual:hover {
+    border-bottom: 2px solid black;
 }
 
 .btn-menu{

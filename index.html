@@ -14,7 +14,7 @@
     <img src="./imgs/logo.png" alt="Logo" class="logo_pagina_inicial">
 
     <nav>
-        <a href="#" class="ativoo">Início</a>
+        <a href="#" class="ativa atual">Início</a>
         <a href="./HTML.sal/sal.html"class="ativo">Receitas Salgadas</a>
         <a href="./HTML.doce/doce.html"class="ativo">Receitas Doces</a>
         <a href="./HTML.café/café.html"class="ativo">Receitas de Café</a>
@@ -121,6 +121,18 @@
     Creditos: Feito pelo Murillo e adaptado pelo Fred.😎
 </div>
 </sections>   
+    <script>
+const links = document.querySelectorAll('nav a');
 
+links.forEach(function(link) {
+    link.addEventListener('mouseenter', function() {
+        document.querySelector('nav a.atual').style.borderBottom = '2px solid transparent';
+    });
+
+    link.addEventListener('mouseleave', function() {
+        document.querySelector('nav a.atual').style.borderBottom = '2px solid black';
+    });
+});
+</script>
 </body>
 </html>
