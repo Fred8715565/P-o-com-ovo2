@@ -108,32 +108,40 @@ nav a{
 }
 
 .formulario label{
+    display: block;          /* <- isso resolve o problema */
     font-size:28px;
     font-weight:bold;
-    margin-top:10px;
+    margin-top:15px;
 }
 
 .formulario input{
+    display: block;          /* <- garante que fica em coluna */
+    width: 100%;             /* <- ocupa a largura toda */
     height:55px;
     border-radius:15px;
     border:1px solid #555;
     padding:10px;
     font-size:18px;
     margin-top:8px;
+    background: #ffffff;     /* <- combina com o fundo do site */
 }
 
 .formulario textarea{
+    display: block;          /* <- garante que fica em coluna */
+    width: 100%;             /* <- ocupa a largura toda */
     margin-top:8px;
     border-radius:15px;
     border:1px solid #555;
     padding:15px;
     font-size:18px;
     resize:none;
+    background: #ffffff;     /* <- combina com o fundo do site */
 }
 
 .btn-enviar{
     margin-top:15px;
     height:60px;
+    width: 100%;
     border-radius:18px;
     border:1px solid #444;
     background:white;
